@@ -48,7 +48,7 @@ while True:
     print("<-------------Terminal Typing Master----------------->")
     user_input = int(input("""
     1. Start the typing test
-    2. Exit T.T.M : """))
+    2. Do you want to Exit in T.T.M you press ctrl+q or 2 : """))
 
     random_sentence = random.choice(sentences)
 
