@@ -10,3 +10,18 @@ def leaderboard(user_error, time1, time2, user_sen):
     final_time = round(time_taken, 2)
     print("W.P.S->", final_time)
     print("User Error->", user_error)
+def final_result(rendom_sen):
+    print("<-------------Type this sentence----------->")
+    print(rendom_sen)
+    time1 = time()
+    user_sen = input("""
+                     Type here : """)
+    time2 = time()
+    user_error = 0
+    for i in range(len(rendom_sen)):
+        try:
+            if rendom_sen[i] != user_sen[i]:
+                user_error += 1                       
+        except:            
+            user_error += 1 
+    return leaderboard(user_error, time1, time2, user_sen) 
