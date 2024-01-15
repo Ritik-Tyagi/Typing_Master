@@ -52,3 +52,7 @@ while True:
 
     if user_input == 1:
         final_result(random_sentence)
+    else:
+        print("Thank you for using T.T.M. Exiting...")
+        break
+    
