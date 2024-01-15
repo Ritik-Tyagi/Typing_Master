@@ -30,7 +30,7 @@ while True:
         print("Thank you for using T.T.M. Exiting...")
         break
 
-    sentences = [
+    sentences = ["Can you recommend any English learning resources?",
             "The quick brown fox jumps over the lazy dog.",
             "Python programming language is widely used for web development.",
             "A journey of a thousand miles begins with a single step.",
@@ -41,6 +41,8 @@ while True:
             "The universe is under no obligation to make sense to you.",
             "Success is not final, failure is not fatal: It is the courage to continue that counts.",
             "Every problem is an opportunity in disguise."
+            "Do you have any pets?",
+            "Do you follow any TV shows or series?",
         ]
 
     print("<-------------Terminal Typing Master----------------->")
